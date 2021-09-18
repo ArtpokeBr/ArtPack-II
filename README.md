@@ -1,3 +1,3 @@
 # ArtPack-II
 
-Just a Simple way to develope my Pack!
+Just a Simple way to develop my Pack!
