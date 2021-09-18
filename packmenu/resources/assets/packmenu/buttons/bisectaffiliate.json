@@ -1,0 +1,19 @@
+{
+	"x": -50,
+	"y": 0,
+	"width": 250,
+	"height": 20,
+	"texture": "packmenu:textures/gui/bisect.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 150,
+	"texHeight": 40,
+	"widgets": false,
+	"langKey": "packmenu.bisect",
+	"action": "OPEN_URL",
+	"data": "https://bisecthosting.com/Artpoke",
+	"anchor": "TOP_RIGHT",
+	"textXOffset": 5
+}
