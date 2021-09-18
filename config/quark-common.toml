@@ -503,7 +503,7 @@
 	Crevices = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Biotite = false
 	"Big Stone Clusters" = true
 	"Brimstone Underground Biome" = true
@@ -1021,11 +1021,11 @@
 				"Biome Types" = ["ocean", "beach"]
 
 			[world.mega_caves.spawn_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = []
 				"Is Blacklist" = false
 
 		[world.mega_caves.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 			"Is Blacklist" = false
 
 	[world.elder_prismarine_underground_biome]

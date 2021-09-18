@@ -30,7 +30,7 @@ onEvent('recipes', (event) => {
 
         astralsorcery_ore_processing_infuser(event, material, ore, ingot, gem, shard);
 
-        //betterend_alloys(event, material, ore, ingot);
+        betterend_alloys(event, material, ore, ingot);
 
         bloodmagic_metal_ore_processing(event, material, ore, fragment, gravel, dust, ingot);
         bloodmagic_gem_ore_processing(event, material, ore, gem, shard, dust);
@@ -144,7 +144,6 @@ onEvent('recipes', (event) => {
         });
     }
 
-    /*
     function betterend_alloys(event, material, ore, ingot) {
         if (ore == air || ingot == air) {
             return;
@@ -158,7 +157,6 @@ onEvent('recipes', (event) => {
             smelttime: 300
         });
     }
-    */
 
     function bloodmagic_metal_ore_processing(event, material, ore, fragment, gravel, dust, ingot) {
         if (ore == air || ingot == air || fragment == air) {

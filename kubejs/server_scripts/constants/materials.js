@@ -43,16 +43,16 @@ const materialsToUnify = [
     'bitumen',
     'redstone',
     'glowstone',
-    'arcane',
-    'mana',
+    //'arcane',
+    //'mana',
     'certus_quartz',
     'charged_certus_quartz',
-    'iesnium',
+    //'iesnium',
     'dimensional',
-    'cloggrum',
-    'froststeel',
-    'regalium',
-    'utherium',
+    //'cloggrum',
+    //'froststeel',
+    //'regalium',
+    //'utherium',
     'coal_coke',
     'starmetal',
     'amber',
@@ -70,9 +70,9 @@ const materialsToUnify = [
     'alfsteel',
     'elementium',
     'gaia_spirit',
-    'infused_iron',
+    //'infused_iron',
     'manasteel',
-    'sky',
+    //'sky',
     'terminite',
     'terrasteel',
     'energized_steel',
@@ -88,23 +88,23 @@ const typesToUnify = ['nugget', 'ingot', 'gem', 'storage_block', 'ore', 'dust', 
 // Used for creating tags on custom ore processing materials
 const metals = [
     'aluminum',
-    'cloggrum',
+    //'cloggrum',
     'cobalt',
     'copper',
-    'froststeel',
+    //'froststeel',
     'gold',
-    'iesnium',
+    //'iesnium',
     'iron',
     'lead',
     'nebu',
     'nickel',
     'osmium',
-    'regalium',
+    //'regalium',
     'silver',
     'thallasium',
     'tin',
     'uranium',
-    'utherium',
+    //'utherium',
     'zinc'
 ];
 
@@ -200,6 +200,7 @@ const oreProcessingSecondaries = {
         secondary: 'iron',
         createProcessingTime: 400
     },
+    /*
     cloggrum: {
         secondary: 'froststeel',
         createProcessingTime: 300
@@ -216,13 +217,14 @@ const oreProcessingSecondaries = {
         secondary: 'regalium',
         createProcessingTime: 400
     },
-    thallasium: {
-        secondary: 'thallasium',
-        createProcessingTime: 300
-    },
     iesnium: {
         secondary: 'silver',
         createProcessingTime: 500
+    },
+    */    
+    thallasium: {
+        secondary: 'thallasium',
+        createProcessingTime: 300
     },
     elementium: {
         secondary: 'elementium',
@@ -688,7 +690,8 @@ const gemProcessingProperties = {
             count: 4
         }
     },
-    mana: {
+    /*
+        mana: {
         output: 'gem',
         stoneOutput: 'minecraft:cobblestone',
         create: {
@@ -718,4 +721,5 @@ const gemProcessingProperties = {
             count: 4
         }
     }
+    */
 };
