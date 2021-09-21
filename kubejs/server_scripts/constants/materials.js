@@ -23,13 +23,14 @@ const materialsToUnify = [
     'lapis',
     'emerald',
     'quartz',
-    'coal',
+    //'coal',
     'charcoal',
     'obsidian',
-    'ender',
-    'fluix',
-    'saltpeter',
-    'fluorite',
+    'redstone',
+    'glowstone',
+    'certus_quartz',
+    'charged_certus_quartz',
+    'dimensional',
     'invar',
     'signalum',
     'lumium',
@@ -38,48 +39,10 @@ const materialsToUnify = [
     'cinnabar',
     'niter',
     'potassium_nitrate',
-    'saltpeter',
     'apatite',
-    'bitumen',
-    'redstone',
-    'glowstone',
-    //'arcane',
-    //'mana',
-    'certus_quartz',
-    'charged_certus_quartz',
-    //'iesnium',
-    'dimensional',
-    //'cloggrum',
-    //'froststeel',
-    //'regalium',
-    //'utherium',
     'coal_coke',
-    'starmetal',
-    'amber',
-    'cobalt',
-    'queens_slime',
-    'rose_gold',
-    'tinkers_bronze',
-    'knightslime',
-    'slimesteel',
-    'manyullyn',
-    'hepatizon',
-    'thallasium',
-    'nebu',
-    'aeternium',
-    'alfsteel',
-    'elementium',
-    'gaia_spirit',
-    //'infused_iron',
-    'manasteel',
-    //'sky',
-    'terminite',
-    'terrasteel',
-    'energized_steel',
-    'blazing_crystal',
-    'niotic_crystal',
-    'spirited_crystal',
-    'nitro_crystal'
+    'tinkers_bronze'
+    //'cobalt'
 ];
 
 // Used to determine which material types to unify
@@ -93,7 +56,7 @@ const metals = [
     'copper',
     //'froststeel',
     'gold',
-    //'iesnium',
+    'iesnium',
     'iron',
     'lead',
     'nebu',
@@ -116,7 +79,7 @@ const meltingPoints = {
     //regalium: { temp: 620 },
     nebu: { temp: 1400 },
     lumium: { temp: 1354 },
-    //iesnium: { temp: 850 },
+    iesnium: { temp: 850 },
     //froststeel: { temp: 860 },
     enderium: { temp: 1450 },
     //cloggrum: { temp: 650 },
@@ -217,11 +180,11 @@ const oreProcessingSecondaries = {
         secondary: 'regalium',
         createProcessingTime: 400
     },
+    */
     iesnium: {
         secondary: 'silver',
         createProcessingTime: 500
-    },
-    */    
+    }, 
     thallasium: {
         secondary: 'thallasium',
         createProcessingTime: 300
@@ -690,7 +653,6 @@ const gemProcessingProperties = {
             count: 4
         }
     },
-    /*
         mana: {
         output: 'gem',
         stoneOutput: 'minecraft:cobblestone',
@@ -721,5 +683,4 @@ const gemProcessingProperties = {
             count: 4
         }
     }
-    */
 };

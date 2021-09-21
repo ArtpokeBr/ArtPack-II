@@ -30,15 +30,15 @@
 		#No comment
 		InWorldSingularity = true
 		#No comment
-		InWorldFluix = true
+		InWorldFluix = false
 		#No comment
-		InWorldPurification = true
+		InWorldPurification = false
 		#No comment
 		EnableDisassemblyCrafting = true
 
 	[features.World]
 		#No comment
-		CertusQuartzWorldGen = true
+		CertusQuartzWorldGen = false
 		#No comment
 		MeteoriteWorldGen = true
 		#No comment

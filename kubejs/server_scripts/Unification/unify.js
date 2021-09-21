@@ -14,12 +14,8 @@ global["HIDE_UNIFIED_ITEMS"] = true
 global["unifypriorities"] = [
     "emendatusenigmatica",
     "minecraft",
-    "alltheores",
     "mekanism",
-    "thermal",
-    "silents_mechanisms",
-    "silentgems",
-    "chemlib"
+    "thermal"
 ]
 // Items to exclude (will not be unified)
 global["unifyexclude"] = new Set([

@@ -7,7 +7,7 @@ onEvent('item.tags', (event) => {
         'immersiveengineering:nugget_uranium',
         'immersiveengineering:nugget_constantan',
         'immersiveengineering:nugget_electrum',
-        //'occultism:iesnium_nugget',
+        'occultism:iesnium_nugget',
         'betterendforge:thallasium_nugget',
         'betterendforge:terminite_nugget'
     ]);

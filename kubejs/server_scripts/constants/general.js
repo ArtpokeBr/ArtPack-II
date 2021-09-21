@@ -17,11 +17,7 @@ const modPriorities = [
     'botania',
     'quark',
     'pedestals',
-    'refinedstorage',
-    'mapperbase',
     'bloodmagic',
-    'eidolon',
-    'morevanillalib',
     'titanium',
     'mythicbotany',
     'undergarden',
@@ -30,8 +26,7 @@ const modPriorities = [
     'tmechworks',
     'projectred-core',
     'projectred-exploration',
-    'betterendforge',
-    'miniutilities'
+    'betterendforge'
 ];
 
 const lootChests = ['lootr:lootr_chest', 'lootr:lootr_barrel', 'lootr:lootr_trapped_chest'];
