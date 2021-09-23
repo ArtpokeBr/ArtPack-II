@@ -119,6 +119,15 @@ var itemsToHide = [
 
     'immersiveengineering:coal_coke',
 
+    'immersiveposts:stick_gold',
+    'immersiveposts:stick_copper',
+    'immersiveposts:stick_lead',
+    'immersiveposts:stick_silver',
+    'immersiveposts:stick_nickel',
+    'immersiveposts:stick_constantan',
+    'immersiveposts:stick_electrum',
+    'immersiveposts:stick_uranium',
+
     'mekanism:fluorite_gem',
 
     // Deprecated Pedestals Items

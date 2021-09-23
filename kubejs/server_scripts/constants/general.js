@@ -26,7 +26,9 @@ const modPriorities = [
     'tmechworks',
     'projectred-core',
     'projectred-exploration',
-    'betterendforge'
+    'betterendforge',
+    'createaddition',
+    'immersiveposts'
 ];
 
 const lootChests = ['lootr:lootr_chest', 'lootr:lootr_barrel', 'lootr:lootr_trapped_chest'];
